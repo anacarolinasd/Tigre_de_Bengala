@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="mapa t1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 400" style="enable-background:new 0 0 1000 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E1833A;}
+	.st1{opacity:0;}
+	.st2{fill:none;}
+	.st3{fill:#1E1E1C;}
+	.st4{font-family:'Roboto-Light';}
+	.st5{font-size:17px;}
+	.st6{font-family:'BarlowSemiCondensed-Light';}
+	.st7{font-size:32.659px;}
+	.st8{fill:none;stroke:#000000;stroke-width:1.2247;stroke-miterlimit:10;}
+	.st9{fill:#DD7324;}
+	.st10{fill:#C9C9C9;}
+	#Nombres{
+	opacity:0; transition:all ease 0.25s
+	}
+	svg:hover #Nombres{opacity:1; transition:all ease 0.25s}
+	#circulo{rgba(221,115,36,-80)}
+</style>
+<image style="overflow:visible;" width="2004" height="793" xlink:href="mapa t1.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<g id="circulo" class="st0">
+<circle id="TSB" class="st0" cx="722.4" cy="29.4" r="11.3" />
+<circle id="TSM" class="st0" cx="575.2" cy="338.1" r="10.6"/>
+<circle id="TM" class="st0" cx="575.2" cy="301.2" r="11.7"/>
+<circle id="TB" class="st0" cx="486.9" cy="167.7" r="22.6"/>
+<circle id="TC" class="st0" cx="650.3" cy="151.5" r="4"/>
+<circle id="TI" class="st0" cx="561.2" cy="238.7" r="9.9"/>
+</g>
+<g id="Nombres" class="st1">
+	<g id="T._de_Siberia">
+		<rect x="608.3" y="15.6" class="st2" width="142.1" height="27.6"/>
+		<text transform="matrix(1 0 0 1 609.5317 37.0229)" class="st3 st4 st5">T. de Siberia</text>
+	</g>
+	<g id="T._de_china">
+		<rect x="608.3" y="120.5" class="st2" width="127.9" height="69.5"/>
+		<text transform="matrix(1 0 0 1 609.2627 141.9692)" class="st3 st4 st5">T. de China</text>
+	</g>
+	<g id="T._de_Malasia">
+		<rect x="597.7" y="283.7" class="st2" width="149.2" height="28.8"/>
+		<text transform="matrix(1 0 0 1 597.6371 305.1352)" class="st3 st4 st5">T. de Malasia</text>
+	</g>
+	<g id="T._de_indochinas">
+		<rect x="432.3" y="222.3" class="st2" width="183.3" height="25.1"/>
+		<text transform="matrix(1 0 0 1 432.2609 243.7152)" class="st3 st4 st5">T. de Indochina</text>
+	</g>
+	<g id="T._de_sumatra">
+		<rect x="451.2" y="321.4" class="st2" width="158.5" height="25.3"/>
+		<text transform="matrix(1 0 0 1 451.1613 342.8914)" class="st3 st4 st5">T. de Sumatra</text>
+	</g>
+	<g id="T._de_bengala">
+		<rect x="430.4" y="114.5" class="st2" width="155" height="27.6"/>
+		<text transform="matrix(1 0 0 1 431.1816 135.9155)" class="st3 st4 st5">T. de Bengala</text>
+	</g>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 18.876 396.1401)" class="st3 st6 st7">N</text>
+	</g>
+	<g>
+		<g>
+			<line class="st8" x1="28.4" y1="373.7" x2="28.4" y2="362.8"/>
+			<g>
+				<path d="M28.4,355.4c1.3,3.5,3.5,7.8,5.8,10.5l-5.8-2.1l-5.8,2.1C24.9,363.2,27.1,358.9,28.4,355.4z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 328.6297 383.7722)" class="st9 st4 st5">Océano Índico</text>
+<g id="mapa">
+	<circle class="st10" cx="922.9" cy="77.8" r="73.7"/>
+	
+		<image style="overflow:visible;" width="283" height="283" xlink:href="mundo.png"  transform="matrix(0.5 0 0 0.5 852.1991 7.0585)">
+	</image>
+</g>
+</svg>
