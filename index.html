@@ -83,7 +83,7 @@
         <!--ESTO SERVIRÁ PARA COMPARAR UN ANTES Y UN DESPUÉS-->
         <link href="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css" rel="stylesheet" />
 
-        <title>Tigre de bengala - Ana Carolina</title>
+        <title>Tigre de bengala - Ana Carolina Soliz - Sebastian Leal</title>
     </head>
     <body>
         <!--ESTE ES EL ENCABEZADO-->
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-xl-11 col-xxl-10 mx-auto">
                     
-                    <!--Muestra el chucao chico o el grando, pero carga ambos-->
+                    <!--Muestra el tigre chico o el grando, pero carga ambos-->
                     <object data="files/tigre-chico.svg" type="image/svg+xml" class="d-md-none"></object>
                     <object data="files/tigre-grande.svg" type="image/svg+xml" class="d-none d-md-block"></object>
                     <!--Se muestra o no por una clase de Bootstrap que responde al ancho de pantalla-->
@@ -117,12 +117,12 @@
                     <!--Acá se cargan dos audios, pero sonará uno-->
                     <div class="mx-auto px-3 py-2 rounded-pill shadow-sm" style="width:220px; background:#ddd">
                         <audio id="elAudio">
-                            <source src="files/canto.mp3" type="audio/mpeg">
-                            <source src="files/canto.ogg" type="audio/ogg">
+                            <source src="files/sonido tigre.mp3" type="audio/mpeg">
+                            <source src="files/sonido tigre.ogg" type="audio/ogg">
                         </audio>
                         <div class="form-check form-switch text-center">
                             <input class="form-check-input" type="checkbox" id="elSwitch">
-                            <label class="form-check-label" for="elSwitch">Escucha al chucao</label>
+                            <label class="form-check-label" for="elSwitch">Escucha al Tigre</label>
                         </div>
                     </div>
                     <!--Suena con JavaScript, ver líneas 267 a 278--> 
@@ -131,12 +131,14 @@
         </header>
         <!--ESTE ES EL CONTENIDO PRINCIPAL-->
         <main>
-            <section class="container-fluid g-0">
+           <section class="container-fluid g-0">
                 <div class="row g-0">
                     <div class="col-12 py-3">
                         <h3 class="text-center pt-5 pb-2">Presencia</h3>
+                        
                         <!--VAMOS A INCLUIR TRES SVG EN UN CARRUSEL-->
-                        <div id="carruselConMapa" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+
+                       <!--  <div id="carruselConMapa" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carruselConMapa" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carruselConMapa" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -165,54 +167,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section>
-             <section class="container-fluid g-0">
-                <div class="row g-0">
-                    <div class="col-12 py-3">
-                        <h3 class="text-center pt-5 pb-2">Presencia</h3>
-                        <!--VAMOS A INCLUIR TRES SVG EN UN CARRUSEL tigre-->
-                        <div id="carruselHabitad" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="500">
-                                    <image style="overflow:visible;" width="2000" height="600" xlink:href="B1.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
-                                    <div class="carousel-caption">
-                                        <h5>1950</h5>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="500">
-                                    <image style="overflow:visible;" width="2000" height="600" xlink:href="B2.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
-                                    </image>
-            
-                                    <div class="carousel-caption">
-                                        <h5>1970</h5>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="500">
-                                   <image style="overflow:visible;" width="2000" height="600" xlink:href="B3.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
-                                    <div class="carousel-caption">
-                                        <h5>2000</h5>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="500">
-                                    <image style="overflow:visible;" width="2000" height="600" xlink:href="B4.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
-                                    <div class="carousel-caption">
-                                        <h5>2000</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>    
-
-            </section>
+            </section> -->
             <section class="container">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto mt-3 mb-5">
@@ -225,7 +180,56 @@
                         <object data="files/mapa-t1.svg" type="image/svg+xml" class="my-3"></object>
                         <p class="text-center">Se reconocen seis subespecies de Panthera tigris, que aún existen en vida silvestre.</p>
                     </div>
-            <section class="container">
+
+                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h4 class="text-center pt-5 pb-2">Ubicación</h4>
+                        <object data="files/mapa-t0.svg" type="image/svg+xml" class="my-3"></object>
+                        <p class="text-center">Nativos de India y Bangladesh, pero tiene su rango de distribución a lo largo de todo el subcontinente indio.</p>
+                    </div>
+                <div class="row g-0">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h4 class="text-center pt-5 pb-2">Hábitad</h4>
+                        <!--VAMOS A INCLUIR TRES SVG EN UN CARRUSEL tigre-->
+                        <div id="carruselHabitad" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carruselHabitad" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="500">
+                                    <image style="overflow:visible;" width="2000" height="600" xlink:href="B1.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h5>Boques Tropical Seco</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="500">
+                                    <image style="overflow:visible;" width="2000" height="600" xlink:href="B2.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
+                                    </image>
+            
+                                    <div class="carousel-caption">
+                                        <h5>Bosque Caducifoli</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="500">
+                                   <image style="overflow:visible;" width="2000" height="600" xlink:href="B3.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h5>Bosque Tropical Humedo</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="500">
+                                    <image style="overflow:visible;" width="2000" height="600" xlink:href="B4.png"  transform="matrix(0.5 0 0 0.5 0 0)" class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h5>Manglar</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+              <section class="container">
                 <div class="row">
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h3 class="text-center pt-5 pb-2">Características</h3>
@@ -269,6 +273,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                         <h4 class="text-center pt-5 pb-2">Tamaños</h4>
                         <object data="files/grafico-tamanos-t.svg" type="image/svg+xml" class="my-3"></object>
@@ -330,7 +335,7 @@
                 }
             }
         </script>
-        <!--CON EL SIGUIENTE SCRIPT HAGO CANTAR AL CHUCAO-->
+        <!--CON EL SIGUIENTE SCRIPT HAGO CANTAR AL TIGRE-->
         <script>
             var canto = document.getElementById("elAudio"); 
             var boton = document.getElementById("elSwitch");
